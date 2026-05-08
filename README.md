@@ -82,23 +82,6 @@ Power / diagnostics:
 - `psnavigatorGetLastError`
 - `psnavigatorSetLogCallback`
 
-## File layout
-
-Expected library files:
-
-- `psnavigator.h`
-- `psnavigator_internal.h`
-- `psnavigator.c`
-- `psnavigator_decode.c`
-- `psnavigator_winusb.c`
-- `winusb_tcc.h`
-- `CMakeLists.txt`
-
-Test files:
-
-- `tests/psnavigator_tests.c`
-- `build_tests_mingw.bat`
-
 ## Using the library
 
 Typical flow:
@@ -221,10 +204,6 @@ cmake --build build --config Release
 Output:
 
 - `build\bin\Release\libnavinput.dll`
-
-Build directory:
-
-- `build`
 
 Notes:
 
