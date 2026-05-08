@@ -183,16 +183,6 @@ int main(void)
 - Different `PSNavigator*` instances may be used from different threads if each instance has a single owner.
 - `psnavigatorGetLastError(NULL)` uses thread-local storage for library-level errors that occur before a device instance exists.
 
-## Tests
-
-Hardware-free tests are available for decode logic and button transitions.
-
-MinGW:
-
-```bat
-build_tests_mingw.bat
-```
-
 ## Build
 
 ### CMake
@@ -251,5 +241,6 @@ This software is an independent, open-source project and is **not** affiliated w
 
 
 All other trademarks, logos, and brands are the property of their respective owners. The use of these names, logos, and brands does not imply endorsement.
+
 ## Credits
 - Developed via ChatGPT (Prompt-based development).
